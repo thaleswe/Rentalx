@@ -1,0 +1,7 @@
+==== ESTES SÃO PATTERNS APRESENTADOS DURANTE O CURSO. ======
+
+
+REVISAR:
+S.O.L.I.D.; //padrão de projetos
+
+Sigleton pattern; // padrão de instaciamento de classes 

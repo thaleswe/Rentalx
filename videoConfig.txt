@@ -1,0 +1,47 @@
+======== CSS ========
+
+
+.video-js.vjs-fill, .video-js .vjs-tech {
+     width: 100%; 
+     height: 100%; 
+}
+
+.eUodGi {
+    display: initial;
+}
+
+.vjs-has-started .vjs-control-bar {
+    opacity: 1;
+}
+
+---------------
+
+.video-js.vjs-fill, .video-js .vjs-tech {
+    width: 125%;
+    height: 140%;
+}
+
+
+.hdPfHj {
+  margin-top: 80px;
+}
+
+.vjs-has-started .vjs-control-bar {
+    display: none;
+}
+
+.active_bar {
+    display: flex !important;
+}
+
+
+
+======== JavaScript ========
+
+document.body.addEventListener("keydown", (event) => {
+    if(event.key === "k") {
+        document.body.querySelector(".vjs-has-started .vjs-control-bar").classList.add("active_bar");
+    } else if (event.key === "l") {
+        document.body.querySelector(".vjs-has-started .vjs-control-bar").classList.remove("active_bar");
+    }
+});

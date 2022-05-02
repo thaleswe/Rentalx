@@ -1,0 +1,21 @@
+explicando o controller:
+
+basicamente, o conceito solid consiste em não deixar a rota responsável por fazer as coisas, mas apenas conclui-las.
+
+Nesse raciocínio, é o controller quem receberá o request e response da rota, e ele será responsável por organizar os parâmetros recebidos pelo request, assim como enviar o response (geralmente isso é feito no método handle dentro da classe). SÓ.
+
+/ ******* / USE CASE
+
+O que fará as coisas dentro do controller será o método execute, que está dentro de uma classe UseCase.
+
+
+
+
+
+
+
+
+
+/ ******* / CONCEITO DE STREAM
+
+Stream é a entrega parcial de dados. Tipo os vídeos do youtube, ele não carrega o vídeo inteiro, ele carrega por partes, assim a aplicação dá a impressão de mais rápida (e, de fato, fica msm)
