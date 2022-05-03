@@ -2,7 +2,7 @@
 FROM node 
 
 # Onde será trabalhado os containers
-WORKDIR /user/app
+WORKDIR /usr/app
 
 COPY package.json ./
 

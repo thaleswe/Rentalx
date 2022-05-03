@@ -21,6 +21,9 @@
     height: 140%;
 }
 
+aside {
+    margin-top: 90px !important;
+}
 
 .vjs-has-started .vjs-control-bar {
     display: none;
@@ -41,5 +44,3 @@ document.body.addEventListener("keydown", (event) => {
         document.body.querySelector(".vjs-has-started .vjs-control-bar").classList.remove("active_bar");
     }
 });
-
-document.querySelector("aside").style.marginTop = "90px"
