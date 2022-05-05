@@ -1,0 +1,43 @@
+-- Criar um novo container:
+ docker build -t container_name .
+
+-- Rodar o container:
+ docker run -p 3333:3333 container_name
+
+-- Acessar um container e seus arquivos:
+ docker exec -it container_name bash
+
+-- Ver detalhes do container:
+ docker ps
+
+-- Ver detalhes de todos os containers:
+ docker ps -a
+
+-- Remover um container:
+ docker rm container_id
+
+-- Iniciar um container:
+ docker start container_id
+
+-- Parar um container:
+ docker stop container_id
+
+
+=============== Docker compose
+-- Subir um serviço:
+ docker-compose up
+
+-- Subir um serviço em background:
+ docker-compose up -d
+
+-- iniciar um serviço:
+ docker-compose stop
+
+-- Parar um serviço:
+ docker-compose stop
+
+-- Acessar os logs do serviço:
+ docker logs service_name
+
+-- Logs do serviço aparecerem permanentemente:
+ docker logs service_name -f
