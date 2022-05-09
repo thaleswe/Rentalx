@@ -31,7 +31,7 @@
  docker-compose up -d
 
 -- iniciar um serviço:
- docker-compose stop
+ docker-compose start
 
 -- Parar um serviço:
  docker-compose stop

@@ -4,6 +4,8 @@ import { router } from './routes';
 import swaggerUi from "swagger-ui-express";
 import swaggerFile from "./swagger.json" //Para importar arquivos .json tem que habilitar "resolveJsonModule" no tsconfig
 
+import "./database";
+
 const app = express(); 
 
 app.use(express.json());
