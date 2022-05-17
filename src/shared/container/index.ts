@@ -6,8 +6,16 @@ import { SpecificationRepository } from "../../modules/cars/repositories/impleme
 import { ISpecificationRepository } from "../../modules/cars/repositories/ISpecificationRepository";
 
 
+
 // ICategoriesRepository
 container.registerSingleton<ICategoryRepository>(
     "CategoriesRepository",
     CategoriesRepository
+);
+
+
+// ISpecificationRepository
+container.registerSingleton<ISpecificationRepository>(
+    "SpecificationRepository",
+    SpecificationRepository
 );
