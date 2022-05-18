@@ -17,12 +17,12 @@
 ---------------
 
 .video-js.vjs-fill, .video-js .vjs-tech {
-    width: 125%;
-    height: 140%;
+    width: 145%;
+    height: 160%;
 }
 
 aside {
-    margin-top: 90px !important;
+    margin-top: 150px !important;
 }
 
 .vjs-has-started .vjs-control-bar {
