@@ -21,4 +21,4 @@ categoriesRoutes.get("/", listCategoriesController.handle);
 
 categoriesRoutes.post("/import", upload.single("file") ,importCategoryController.handle);
 
-export { categoriesRoutes };
+export { categoriesRoutes }; 
