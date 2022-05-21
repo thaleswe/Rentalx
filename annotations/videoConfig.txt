@@ -44,3 +44,5 @@ document.body.addEventListener("keydown", (event) => {
         document.body.querySelector(".vjs-has-started .vjs-control-bar").classList.remove("active_bar");
     }
 });
+
+document.querySelector("button svg[width='14']").parentElement.style.display = "none"
