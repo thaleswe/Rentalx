@@ -19,3 +19,8 @@ O que fará as coisas dentro do controller será o método execute, que está de
 / ******* / CONCEITO DE STREAM
 
 Stream é a entrega parcial de dados. Tipo os vídeos do youtube, ele não carrega o vídeo inteiro, ele carrega por partes, assim a aplicação dá a impressão de mais rápida (e, de fato, fica msm)
+
+
+/ ****** / EXPLICANDO A PASTA @TYPES
+
+Quando queremos sobrescrever uma tipagem no ts, precisamos criar uma pasta chamada @types, pois é pra ela que o compilador irá olhar. Dentro dela, criaremos outra pasta com o nome da biblioteca que vamos sobrescrever. Dentro dessa nova pasta, criamos o index.d.ts (essa extensão de arquivo é a extensão das tipagens)
