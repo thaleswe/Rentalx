@@ -45,4 +45,6 @@ document.body.addEventListener("keydown", (event) => {
     }
 });
 
-document.querySelector("button svg[width='14']").parentElement.style.display = "none"
+document.querySelector("button svg[width='14']").parentElement.style.display = "none";
+
+document.querySelector("#skylabWrapper label > input[type='checkbox']").parentElement.style.display = "none";

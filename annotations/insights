@@ -24,3 +24,12 @@ Stream é a entrega parcial de dados. Tipo os vídeos do youtube, ele não carre
 / ****** / EXPLICANDO A PASTA @TYPES
 
 Quando queremos sobrescrever uma tipagem no ts, precisamos criar uma pasta chamada @types, pois é pra ela que o compilador irá olhar. Dentro dela, criaremos outra pasta com o nome da biblioteca que vamos sobrescrever. Dentro dessa nova pasta, criamos o index.d.ts (essa extensão de arquivo é a extensão das tipagens)
+
+
+
+==========  TESTES
+
+Teste unitário: Testam apenas uma parte do código. Geralmente testam mais os UseCases
+
+Teste de integração: Testa toda a aplicação, ou seja, testa o fluxo de todo o código. Representação:
+-> routes -> controllers -> useCases -> repository 
