@@ -1,8 +1,9 @@
+import { CreateSpecificationController } from "@modules/cars/useCases/createSpecification/CreateSpecificationController";
+import { FindSpecificationsController } from "@modules/cars/useCases/findSpecification/findSpecificationsController";
 import { Router } from "express";
-
-import { CreateSpecificationController } from "../modules/cars/useCases/createSpecification/CreateSpecificationController";
-import { FindSpecificationsController } from "../modules/cars/useCases/findSpecification/findSpecificationsController";
 import { ensureAuthenticated } from "../middlewares/ensureAuthenticated";
+
+
 
 const specificationRoutes = Router();
 
