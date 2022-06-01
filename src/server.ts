@@ -8,8 +8,8 @@ import swaggerFile from "./swagger.json" //Para importar arquivos .json tem que 
 
 import "./database";
 
-import "./shared/container";
-import { AppError } from "./errors/AppError";
+import "@shared/container";
+import { AppError } from "@errors/AppError";
 
 const app = express(); 
 
