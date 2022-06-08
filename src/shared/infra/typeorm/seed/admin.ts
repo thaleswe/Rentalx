@@ -1,4 +1,3 @@
-import { getConnection } from "typeorm";
 import { v4 as uuid_v4 } from "uuid";
 import { hash } from "bcryptjs";
 
