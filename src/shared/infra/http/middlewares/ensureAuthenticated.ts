@@ -18,7 +18,7 @@ export async function ensureAuthenticated(request: Request, response: Response, 
         throw new AppError("Token missing", 401)
     }
 
-    // O valor de authHeader é Bearer reopfiuefiefepjf(token)...
+    // O valor de authHeader é Bearer reopfiuefiefepjf(+ resto do token)...
     // Então, a única parte que interessa é o token, logo deve-se
     // dar um split bem no espaço entre "Bearer" e o token.
 
